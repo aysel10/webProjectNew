@@ -1,0 +1,318 @@
+
+.navbar-default {
+  background-color: transparent;
+    border-color:transparent;
+    border-bottom:1px solid white;
+   
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #DE0101;
+}
+divider-vertical {
+    height:50px;                   /* any height */
+    border-left: 1px solid white;     /* right or left is the same */
+    float: left;                     /* so BS grid doesn't break */
+/*    opacity: 0.5;                  */
+    margin: 0 15px;                  /* optional */
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: lightblue;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: #DE0101;
+}
+.navbar-default .navbar-toggle {
+  border-color: white; /*COLOR OF BORDER IN MOBILE VERSION */
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #DE0101;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #8e44ad;
+  }
+
+    .navbar-default {
+        background-color: black;
+    }
+    
+  
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-menu li a{
+    color: white;
+}
+
+
+/*DIV WITH IMAGE(OVERLAY TEXT) BLOCK*/
+.intro-header {
+  background-color: #777777;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+    height:800px;
+
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .post-heading,
+  .intro-header .page-heading {
+    transform: translateY(60%);
+    /*padding: 350px 0;*/ /* It is important not to use padding in this situation, because it breake template on big screens. Instead use transform function */
+  }
+}
+.intro-header .site-heading,
+.intro-header .page-heading {
+  text-align: center;
+}
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+  margin-top: 0;
+  font-size: 50px;
+}
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    font-size: 80px;
+  }
+}
+.intro-header .post-heading h1 {
+  font-size: 35px;
+}
+.intro-header .post-heading .subheading,
+.intro-header .post-heading .meta {
+  line-height: 1.1;
+  display: block;
+}
+.intro-header .post-heading .subheading {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+.intro-header .post-heading .meta {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+.intro-header .post-heading .meta a {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .post-heading h1 {
+    font-size: 55px;
+  }
+  .intro-header .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+.glyphicon-bg-paratemers{
+    margin-top:30px;
+    font-size:70px;
+    color:azure;
+}
+
+
+/*END*/
+
+
+/*FOOTER CODE HERE:*/
+
+
+
+.footer {
+	background: black;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: darkorange;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: darkorange;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: darkorange;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer-bottom {
+	background: white;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+
+/*END:*/
+
+
+/*PAGINATION:*/
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px; color: orange;}
+.pagination>li>a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pagination .active a{
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+.pagination .active a:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+    
+}
+.panel-body{
+    padding-right:20px;
+    padding-left:0px;
+}
+.pagination .disabled a {
+    color: white;
+    background-color: black;
+}
+
+.pagination .disabled a:hover {
+    color: black;
+    background-color: white;
+}
+/*END*/
+
+/*LEGEND CUSTOM*/
+legend h1 {
+    color: darkorange;
+    font-family: 'Baloo', cursive;
+}
+
+/*LEGEND END*/
+
+a,h2{
+    color:#FF8A28;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+a:hover{
+    color:black;
+   font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+}
+p{
+    font-family:  'Didact Gothic', sans-serif;
+}
+body{
+    background-color:#EEEEEE;
+}
+
+
+
